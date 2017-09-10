@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    no-use-before-define: "off",
+    no-param-reassign: "off",
+    object-curly-newline: "off",
+    arrow-parens: ["error", "as-needed"],
+    consistent-return: "off",
+    no-bitwise: "off",
+    no-unused-expressions: ["error", { "allowTernary": true }]
+  }
+}
